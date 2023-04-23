@@ -1,6 +1,6 @@
 function searchCity(){
     let cityName = document.getElementById('city').value;
-    fetch(`http://api.weatherapi.com/v1/current.json?key=5927a041178f4636acd135258222606&q=${cityName}&aqi=yes`)
+    fetch(`https://api.weatherapi.com/v1/current.json?key=5927a041178f4636acd135258222606&q=${cityName}&aqi=yes`)
     .then(response => response.json())
     .then(data =>{
         console.log(data);

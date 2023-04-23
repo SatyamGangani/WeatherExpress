@@ -7,7 +7,7 @@ function searchCity(){
         let dataContainer = document.getElementById("dataContainer");
         if(data.error){
             dataContainer.innerHTML=`
-            <img src='/assets/noresult.gif' class='d-block mx-auto mt-4'>
+            <img src='/assets/noresult.gif' style="width: -webkit-fill-available;" class='d-block mx-auto mt-4'>
             `
         }
         else{
